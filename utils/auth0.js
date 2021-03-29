@@ -5,9 +5,8 @@ export default initAuth0({
   clientId: process.env.CLIENT_ID,
   clientSecret: process.env.CLIENT_SECRET,
   scope: "openid profile",
-  redirectUri:
-    "https://workout-tracker-o8sqiphum-csa100.vercel.app/api/callback",
-  postLogoutRedirectUri: "https://workout-tracker-o8sqiphum-csa100.vercel.app/",
+  redirectUri: "https://workout-tracker-seven.vercel.app/api/callback",
+  postLogoutRedirectUri: "https://workout-tracker-seven.vercel.app/",
   session: {
     // The secret used to encrypt the cookie.
     cookieSecret: process.env.COOKIE_SECRET,
