@@ -2,13 +2,10 @@
   "name": "nextworkout",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://CSA100.github.io/workout-tracker",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "start": "next start"
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^0.16.0",
